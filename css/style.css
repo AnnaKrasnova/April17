@@ -1,0 +1,52 @@
+.red{
+  background: #ff0000;
+}
+.blue{
+  background: #0000ff;
+}
+.green{
+  background: #00ff00;
+}
+img{
+  max-width: 100%;
+}
+.item{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+@media screen and (min-width:420px) and (max-width:988px) {
+  .item{
+    width: 200px;}
+}
+
+@media screen and (min-width:989px) {
+  .item{
+    width: 200px;
+  }
+}
+
+.flexslider{
+  max-width: 500px;
+}
+
+@media screen and (max-width: 419px){
+
+  header{
+    position: fixed;
+  }
+
+  .top{
+    margin-top: 70px;
+  }
+}
+
+@media screen and (min-width: 420px){
+
+  header{
+    display: none;
+  }
+}
+
